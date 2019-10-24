@@ -1,9 +1,9 @@
 {
-    "defaultSeverity": "error",
-    "extends": [
-        "@ulfryk/tslint-config"
-    ],
-    "jsRules": {},
-    "rules": {},
-    "rulesDirectory": []
+  "defaultSeverity": "error",
+  "extends": ["@ulfryk/tslint-config"],
+  "jsRules": {},
+  "rules": {
+    "quotemark": [true, "single"]
+  },
+  "rulesDirectory": []
 }
