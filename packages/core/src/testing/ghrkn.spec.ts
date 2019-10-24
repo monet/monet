@@ -8,7 +8,7 @@ feature `Gherkin style helpers` (() => {
 
     given `all testing helpers` (() => {
 
-      expect(and).to.not.be.undefined
+      expect(and).to.not.be.undefined // tslint:disable-line:no-unused-expression
 
     })
 

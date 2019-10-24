@@ -1,1 +1,1 @@
-export * from './ghrkn.ts'
+export * from './ghrkn'

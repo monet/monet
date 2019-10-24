@@ -11,4 +11,3 @@ export const given = ghrk(it, 'Given')
 export const when = ghrk(it, 'When')
 export const and = ghrk(it, '  and')
 export const then = ghrk(it, 'Then')
-
