@@ -4,7 +4,6 @@ brand new, completely TS,  finally semver
 ## working actions
 
 ```
-lerna bootstrap
-lerna run lint
-lerna run tsc
+npm i
+npm test
 ```
