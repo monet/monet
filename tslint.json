@@ -4,6 +4,9 @@
     "@ulfryk/tslint-config"
   ],
   "jsRules": {},
+  "linterOptions": {
+    "exclude": ["**/*.spec.ts"]
+  },
   "rules": {
     "quotemark": [
       true,

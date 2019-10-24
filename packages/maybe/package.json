@@ -31,5 +31,8 @@
   },
   "bugs": {
     "url": "https://github.com/monet/monet/issues"
+  },
+  "dependencies": {
+    "@monet/core": "^1.0.0-alpha.0"
   }
 }
