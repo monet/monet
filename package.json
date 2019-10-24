@@ -1,10 +1,6 @@
 {
   "name": "root",
   "private": true,
-  "scripts": {
-    "lint": "tslint 'packages/**/*.ts{,x}'",
-    "lint:fix": "tslint 'packages/**/*.ts{,x}' --fix"
-  },
   "devDependencies": {
     "@types/node": "^12.11.6",
     "@ulfryk/tslint-config": "^1.0.2",

@@ -18,6 +18,8 @@
   },
   "scripts": {
     "tsc": "tsc",
+    "lint": "tslint 'src/**/*.ts'",
+    "lint:fix": "tslint 'src/**/*.ts' --fix",
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "bugs": {
