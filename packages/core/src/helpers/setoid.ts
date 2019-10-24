@@ -1,10 +1,6 @@
-import { isFunction } from './function'
+import { ISetoid } from '../data'
 
-// https://github.com/fantasyland/fantasy-land#setoid
-export interface ISetoid<A> {
-  equals(other: A): boolean
-  ['fantasy-land/equals'](other: A): boolean
-}
+import { isFunction } from './function'
 
 export const isSetoid = <T>(a: any): a is ISetoid<T> => isFunction(a.equals)
 

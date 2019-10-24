@@ -66,14 +66,4 @@ feature`equals`(() => {
 
   })
 
-  // given`Not equal values expect result to be false`(() => {
-  //   expect(equals(true)(false)).to.equal(false)
-  //   expect(equals(0)(1)).to.equal(false)
-  //   expect(equals('yes')('no')).to.equal(false)
-  //   expect(equals(false)(true)).to.equal(false)
-  //   expect(equals([])({})).to.equal(false)
-  //   expect(equals({})({})).to.equal(false)
-  //   expect(equals(3)([3])).to.equal(false)
-  //   expect(equals(3)('3')).to.equal(false)
-  // })
 })
