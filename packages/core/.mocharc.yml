@@ -1,0 +1,6 @@
+color: true
+extension:
+  - ts
+reporter: spec
+require: ts-node/register/type-check
+spec: src/**/*.spec.ts
