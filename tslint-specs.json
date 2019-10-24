@@ -1,0 +1,13 @@
+{
+  "extends": [
+    "./tslint.json"
+  ],
+  "rules": {
+    "no-magic-numbers": false,
+    "no-let": false,
+    "no-unused-expression": false
+  },
+  "linterOptions": {
+    "exclude": []
+  }
+}
