@@ -18,9 +18,9 @@
   },
   "scripts": {
     "tsc": "tsc",
+    "mocha": "mocha",
     "lint": "tslint 'src/**/*.ts'",
-    "lint:fix": "tslint 'src/**/*.ts' --fix",
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "lint:fix": "tslint 'src/**/*.ts' --fix"
   },
   "bugs": {
     "url": "https://github.com/monet/monet/issues"
