@@ -1,7 +1,15 @@
 {
   "name": "root",
   "private": true,
+  "scripts": {
+    "lint": "tslint 'packages/**/*.ts{,x}'",
+    "lint:fix": "tslint 'packages/**/*.ts{,x}' --fix"
+  },
   "devDependencies": {
-    "lerna": "^3.18.3"
+    "@types/node": "^12.11.6",
+    "@ulfryk/tslint-config": "^1.0.2",
+    "lerna": "^3.18.3",
+    "tslint": "^5.20.0",
+    "typescript": "^3.6.4"
   }
 }
