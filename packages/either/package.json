@@ -1,9 +1,9 @@
 {
-  "name": "@monet/core",
-  "version": "1.0.0-alpha.0",
+  "name": "@monet/either",
+  "version": "1.0.0-alpna.0",
   "description": "> TODO: description",
   "author": "Jakub Strojewski <jakub.strojewski@allegro.pl>",
-  "homepage": "https://monet.github.io/monet.js/",
+  "homepage": "https://github.com/monet/monet#readme",
   "license": "MIT",
   "main": "lib/index.js",
   "directories": {
@@ -17,7 +17,6 @@
     "url": "git+https://github.com/monet/monet.git"
   },
   "scripts": {
-    "tsc": "tsc",
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "bugs": {

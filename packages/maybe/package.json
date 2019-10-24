@@ -1,5 +1,5 @@
 {
-  "name": "@monet/core",
+  "name": "@monet/maybe",
   "version": "1.0.0-alpha.0",
   "description": "> TODO: description",
   "author": "Jakub Strojewski <jakub.strojewski@allegro.pl>",
@@ -17,7 +17,6 @@
     "url": "git+https://github.com/monet/monet.git"
   },
   "scripts": {
-    "tsc": "tsc",
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "bugs": {
