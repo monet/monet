@@ -1,3 +1,3 @@
-# `core`
+# `identity`
 
 > TODO: description
