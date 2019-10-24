@@ -19,7 +19,8 @@
   "scripts": {
     "tsc": "tsc",
     "mocha": "mocha",
-    "lint": "tslint 'src/**/*.ts'",
+    "lint": "tslint 'src/**/*.ts' --format verbose" ,
+    "lint-specs": "tslint 'src/**/*.spec.ts' --config '../../tslint-specs.json' --format verbose",
     "lint:fix": "tslint 'src/**/*.ts' --fix"
   },
   "bugs": {

@@ -1,9 +1,20 @@
 {
   "defaultSeverity": "error",
-  "extends": ["@ulfryk/tslint-config"],
+  "extends": [
+    "@ulfryk/tslint-config"
+  ],
   "jsRules": {},
   "rules": {
-    "quotemark": [true, "single"]
+    "quotemark": [
+      true,
+      "single"
+    ],
+    "no-method-signature": false
   },
-  "rulesDirectory": []
+  "rulesDirectory": [],
+  "linterOptions": {
+    "exclude": [
+      "**/*.spec.ts"
+    ]
+  }
 }
