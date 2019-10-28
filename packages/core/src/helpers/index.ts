@@ -1,5 +1,6 @@
 export * from './empty'
 export * from './equals'
 export * from './function'
+export * from './id-function'
 export * from './setoid'
 export * from './is-nothing'

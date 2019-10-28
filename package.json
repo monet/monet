@@ -2,12 +2,12 @@
   "name": "root",
   "private": true,
   "scripts": {
-    "postinstall": "lerna bootstrap",
+    "postinstall": "lerna bootstrap --hoist",
     "lint": "lerna run lint",
     "lint-specs": "lerna run lint-specs",
     "mocha": "lerna run mocha",
     "tsc": "lerna run tsc",
-    "test": "npm run lint && npm run lint-specs && npm run mocha && npm run tsc"
+    "test": "npm run lint && npm run lint-specs && npm run tsc && npm run mocha "
   },
   "devDependencies": {
     "@types/node": "^12.11.6",
