@@ -18,8 +18,8 @@
   },
   "scripts": {
     "tsc": "tsc",
-    "lint": "tslint 'src/**/*.ts'",
-    "lint:fix": "tslint 'src/**/*.ts' --fix"
+    "lint": "eslint 'src/**/*.ts'",
+    "lint:fix": "eslint 'src/**/*.ts' --fix"
   },
   "devDependencies": {
     "@types/chai": "^4.2.4",

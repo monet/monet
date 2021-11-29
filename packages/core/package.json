@@ -19,9 +19,8 @@
   "scripts": {
     "tsc": "tsc",
     "mocha": "mocha",
-    "lint": "tslint 'src/**/*.ts' --format verbose" ,
-    "lint-specs": "tslint 'src/**/*.spec.ts' --config '../../tslint-specs.json' --format verbose",
-    "lint:fix": "tslint 'src/**/*.ts' --fix"
+    "lint": "eslint 'src/**/*.ts'" ,
+    "lint:fix": "eslint 'src/**/*.ts' --fix"
   },
   "bugs": {
     "url": "https://github.com/monet/monet/issues"

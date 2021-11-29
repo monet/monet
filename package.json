@@ -3,17 +3,18 @@
   "private": true,
   "scripts": {
     "postinstall": "lerna bootstrap",
-    "lint": "lerna run lint",
-    "lint-specs": "lerna run lint-specs",
+    "lint": "lerna exec -- npm run lint",
     "mocha": "lerna run mocha",
     "tsc": "lerna run tsc",
-    "test": "npm run lint && npm run lint-specs && npm run mocha && npm run tsc"
+    "test": "npm run lint && npm run mocha && npm run tsc"
   },
   "devDependencies": {
     "@types/node": "^12.11.6",
-    "@ulfryk/tslint-config": "^1.0.2",
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
+    "eslint": "^8.3.0",
     "lerna": "^3.18.3",
     "tslint": "^5.20.0",
-    "typescript": "^3.6.4"
+    "typescript": "^3.9.10"
   }
 }
