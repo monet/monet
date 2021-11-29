@@ -10,7 +10,7 @@
     "test": "npm run lint && npm run mocha && npm run tsc"
   },
   "devDependencies": {
-    "@types/node": "^12.11.6",
+    "@types/node": "^16.11.10",
     "@typescript-eslint/eslint-plugin": "^5.4.0",
     "@typescript-eslint/parser": "^5.4.0",
     "eslint": "^8.3.0",
