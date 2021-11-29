@@ -19,9 +19,8 @@
   "scripts": {
     "tsc": "tsc",
     "mocha": "mocha",
-    "lint": "tslint 'src/**/*.ts' --format verbose" ,
-    "lint-specs": "tslint 'src/**/*.spec.ts' --config '../../tslint-specs.json' --format verbose",
-    "lint:fix": "tslint 'src/**/*.ts' --fix"
+    "lint": "eslint 'src/**/*.ts'" ,
+    "lint:fix": "eslint 'src/**/*.ts' --fix"
   },
   "bugs": {
     "url": "https://github.com/monet/monet/issues"
@@ -32,6 +31,6 @@
     "chai": "^4.2.0",
     "mocha": "^6.2.2",
     "ts-node": "^8.4.1",
-    "typescript": "^3.6.4"
+    "typescript": "^3.9.10"
   }
 }
