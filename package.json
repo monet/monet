@@ -4,6 +4,7 @@
   "scripts": {
     "postinstall": "lerna bootstrap",
     "lint": "lerna exec -- npm run lint",
+    "lint:fix": "lerna exec -- npm run lint:fix",
     "mocha": "lerna run mocha",
     "tsc": "lerna run tsc",
     "test": "npm run lint && npm run mocha && npm run tsc"
